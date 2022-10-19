@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_trip"
+    android:background="@drawable/laand"
+    >
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="cursive"
+        android:text="@string/start_your_trip"
+        android:textAllCaps="true"
+        android:textColor="#86E3E0E0"
+        android:textSize="@dimen/_30ssp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/signupbutton"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_s"
+        android:backgroundTint="#3E3D3D"
+        android:text="ADD"
+        android:textColor="#C4F3EFEF"
+        android:textColorHint="#86E3E0E0"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/startpoint"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_35ssp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/input_pg"
+        android:drawableLeft="@drawable/ic_baseline_local_airport_24"
+        android:ems="10"
+        android:hint="@string/start_your_trip"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="@dimen/_10ssp"
+        android:paddingBottom="@dimen/_10ssp"
+        android:textColor="#D0FAFAFA"
+        android:textColorHint="#86E3E0E0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/tripname"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_35ssp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/input_pg"
+        android:drawableLeft="@drawable/ic_baseline_create_24"
+        android:ems="10"
+        android:hint="Trip Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="@dimen/_10ssp"
+        android:paddingBottom="@dimen/_10ssp"
+        android:textColor="#D0FAFAFA"
+        android:textColorHint="#86E3E0E0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/endpoint" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_35ssp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/input_pg"
+        android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+        android:ems="10"
+        android:hint="@string/phone_number"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="#D0FAFAFA"
+        android:textColorHint="#86E3E0E0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tripname" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_35ssp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/input_pg"
+        android:drawableLeft="@drawable/ic_baseline_access_time_24"
+        android:ems="10"
+        android:hint="@string/trip_time"
+        android:inputType="time"
+        android:paddingLeft="20dp"
+        android:paddingTop="@dimen/_10ssp"
+        android:paddingBottom="@dimen/_10ssp"
+        android:textColor="#D0FAFAFA"
+        android:textColorHint="#86E3E0E0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+
+    <EditText
+        android:id="@+id/endpoint"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_35ssp"
+        android:layout_marginTop="28dp"
+        android:autofillHints=""
+        android:background="@drawable/input_pg"
+        android:drawableLeft="@drawable/ic_baseline_local_airport_24"
+        android:ems="10"
+        android:hint="@string/trip_end_point"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingTop="@dimen/_10ssp"
+        android:paddingBottom="@dimen/_10ssp"
+        android:textColor="#D0FAFAFA"
+        android:textColorHint="#86E3E0E0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startpoint" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="398dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="76dp"
+        android:clipChildren="true"
+        android:dropDownWidth="match_parent"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="#F6F4F4"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/signupbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tripRoundDate"
+        android:layout_width="365dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="44dp"
+        android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+        android:text="Trip Roud Date"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/spinner"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spinner" />
+
+    <TextView
+        android:id="@+id/tripReturnDate"
+        android:layout_width="362dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="48dp"
+        android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+        android:text="Trip Return Date"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/signupbutton"
+        app:layout_constraintEnd_toEndOf="@+id/tripRoundDate"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="@+id/tripRoundDate" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="398dp"
+        android:layout_height="27dp"
+        android:paddingStart="@dimen/_10ssp"
+        android:text="Trip Type"
+        android:textColor="#F1EDED"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

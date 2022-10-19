@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/drawable/button_bg.xml" value="0.1" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/drawable/button_s.xml" value="0.1" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/drawable/ic_baseline.xml" value="0.2595" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.1795" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/drawable/ic_baseline_mood_24.xml" value="0.1" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/drawable/ic_facebook.xml" value="0.1865" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/drawable/ic_google.xml" value="0.1735" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/drawable/ic_linkedin.xml" value="0.1735" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/drawable/input_pg.xml" value="0.193" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/drawable/login_button.xml" value="0.1" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/drawable/login_input.xml" value="0.1" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/drawable/pro_photo.xml" value="0.1" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/layout/activity_add_trip.xml" value="0.264" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/layout/activity_history.xml" value="0.24010416666666667" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/layout/activity_history_map.xml" value="0.24010416666666667" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/layout/activity_register1.xml" value="0.264" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/layout/activity_upcoming.xml" value="0.1" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/layout/main_nav_drawer.xml" value="0.264" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/layout/main_toolbar.xml" value="0.264" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/layout/newtrip.xml" value="0.25025641025641027" />
+        <entry key="..\:/program/Mi_Trips2/app/src/main/res/menu/more_items.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

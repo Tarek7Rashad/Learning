@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Mi_Trips</string>
+    <string name="Sign_Up">Sign Up</string>
+    <string name="new_account">New Account</string>
+    <string name="upload_your_profile_picture">Upload Your Profile Picture</string>
+    <string name="e_mail">E-mail</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="already_have_e_mail">Already Have E-mail !</string>
+    <string name="login">LOGIN</string>
+    <string name="don_t_have_account">Don\'t Have Account ?</string>
+    <string name="Login">Login</string>
+    <string name="google">Button</string>
+    <string name="linkedin">Button</string>
+    <string name="facebook">Button</string>
+    <string name="start_your_trip">Trip Start Point</string>
+    <string name="trip_end_point">Trip End Point</string>
+    <string name="trip_time">Trip Time</string>
+    <string name="start">Start</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string-array name="directions">
+        <item>One Direction</item>
+        <item>Two Direction</item>
+    </string-array>
+    <string-array name="ic_more">
+        <item>stting</item>
+    </string-array>
+</resources>
