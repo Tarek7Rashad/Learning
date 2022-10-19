@@ -1,21 +1,15 @@
 package com.example.mi_trips;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
-
-import com.google.android.material.navigation.NavigationView;
 
 public class Upcoming extends AppCompatActivity {
     DrawerLayout mDrawerLayout;
@@ -45,24 +39,24 @@ public class Upcoming extends AppCompatActivity {
         }
     }
 
-    public void ClickHome(View view){
+    public void ClickUpcoming ( View view){
         recreate ();
     }
 
-    public void ClickDashboard(View view){
+    public void ClickHistory ( View view){
         redirectActivity(this,History.class);
     }
-    public void ClickAboutUs(View view){
+    public void ClickHistoryMap ( View view){
         redirectActivity ( this,HistoryMap.class);
     }
-    public void ClickLogout(View view){
-        logout(this);
+    public void ClickSignout ( View view){
+        Signout (this);
     }
 
-    public static void logout ( Activity activity ) {
+    public static void Signout ( Activity activity ) {
         AlertDialog.Builder builder = new AlertDialog.Builder ( activity );
-        builder.setTitle ( "Logout" );
-        builder.setMessage ( "Are You Sure You Want To Logout ?" );
+        builder.setTitle ( "Signout" );
+        builder.setMessage ( "Are You Sure You Want To Sign out ?" );
         builder.setPositiveButton ( "Yes", new DialogInterface.OnClickListener () {
             @Override
             public void onClick ( DialogInterface dialog, int which ) {

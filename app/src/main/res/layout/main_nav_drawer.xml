@@ -6,10 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/laand"
     android:orientation="vertical"
-    android:saveEnabled="true"
-    android:soundEffectsEnabled="true"
-    android:splitMotionEvents="true"
-    app:layout_dodgeInsetEdges="all">
+>
 
     <ImageView
         android:layout_width="276dp"
@@ -48,7 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:onClick="ClickHome"
+        android:onClick="ClickUpcoming"
         android:orientation="horizontal">
 
         <TextView
@@ -56,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawableStart="@drawable/ic_baseline_arrow_upward_24"
-            android:drawableTint="#090000"
+            android:drawableTint="#000000"
             android:padding="@dimen/_12sdp"
             android:text="Upcoming"
             android:textColor="#000000" />
@@ -66,7 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:gravity="center_vertical"
-        android:onClick="ClickDashboard"
+        android:onClick="ClickHistory"
         android:orientation="horizontal">
 
         <TextView
@@ -83,7 +80,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:onClick="ClickAboutUs"
+        android:onClick="ClickHistoryMap"
         android:orientation="horizontal">
 
         <TextView
@@ -119,7 +116,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
-        android:onClick="ClickLogout"
+        android:onClick="ClickSignout"
         android:orientation="horizontal">
 
         <TextView

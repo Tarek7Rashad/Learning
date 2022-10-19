@@ -21,19 +21,19 @@ public class HistoryMap extends AppCompatActivity {
     public void ClickLogo(View view){
         Upcoming.closeDrawer ( mDrawerLayout );
     }
-    public void ClickHome(View view){
+    public void ClickUpcoming ( View view){
         Upcoming.redirectActivity ( this,Upcoming.class);
     }
-    public void ClickDashboard(View view){
+    public void ClickHistory ( View view){
         Upcoming.redirectActivity ( this,HistoryMap.class );
 
     }
-    public void ClickAboutUs(View view){
+    public void ClickHistoryMap ( View view){
         recreate ();
 
     }
-    public void ClickLogout(View view){
-        Upcoming.logout ( this );
+    public void ClickSignout ( View view){
+        Upcoming.Signout ( this );
     }
 
     @Override
